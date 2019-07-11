@@ -1,17 +1,9 @@
-<html>
-<head>
-<title>Introduction to JavaScript</title>
-</head>
-<body>
-<h2>JavaScriptの条件分岐</h2>
-<p id="xxx"></p>
-<script>
-var point= 50;
-if (point >= 80) {
-　document.getElementById("xxx").innerHTML = "合格です。";
-} else {
-　document.getElementById("xxx").innerHTML = "不合格です。";
+var num = 1;
+var s = "女性";
+if(num==6&&s=="女性"){
+    console.log("おめでとうございます。あたりです。");
+        //numが6かつ「女性」の時「あたり」を表示する。
+}else{
+    console.log("はずれです。");
+        //ifの条件に当てはまらない時に「はずれ」を表示する。
 }
-</script>
-</body>
-</html>
